@@ -16,6 +16,18 @@ The system uses three tables:
 
 The `bookings` table connects users with matches through foreign keys.
 
+## Queries Covered
+
+The SQL file includes queries for:
+
+- Filtering matches by tournament and status
+- Case-insensitive user search with `LIKE` and `ILIKE`
+- Handling `NULL` payment status with `COALESCE`
+- Joining bookings with users and matches
+- Listing users with or without bookings using `LEFT JOIN`
+- Comparing ticket costs with an aggregate subquery
+- Sorting and paginating match records with `LIMIT` and `OFFSET`
+
 ## How to Run
 
 Run the SQL file in PostgreSQL:

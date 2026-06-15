@@ -38,6 +38,10 @@ psql -U postgres -d your_database_name -f QUERY.sql
 
 The file creates the tables, inserts the sample data, and runs all required queries.
 
+## Verification
+
+The SQL script was tested with PostgreSQL 16 and produced the expected sample outputs for all seven queries.
+
 ## Assignment Notes
 
 The ERD public link and viva/interview video link are submitted separately through the assignment submission portal.
